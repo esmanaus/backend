@@ -34,4 +34,4 @@ app.use(require('./routes'));
 
 //app.listen(90);
 //server.listen(90);
-server.listen(process.env || 90);
+server.listen(process.env.PORT || 90);
